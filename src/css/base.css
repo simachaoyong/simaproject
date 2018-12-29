@@ -1,0 +1,89 @@
+/*(1)清除默认样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input,figure,figcaption{ margin:0; padding:0; }
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+/*语义化标签添加display:block;*/
+article, aside, canvas, details, figcaption, figure,main,footer, header, hgroup, menu, nav, section, summary
+{ 
+  display: block;
+}
+
+ul,li,ol{ list-style:none; }
+select, input { vertical-align:middle;}
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea { resize:none; } /*防止拖动*/
+img {border:0 none; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+/*使用box-sizing*/
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:"微软雅黑","Microsoft yahei",arial;
+    background-color:#FFFFFF;
+    font-size:12px;
+    color:#333;
+}
+select,option{
+  outline-style:none;
+}
+a{
+  text-decoration:none;
+  color:#333333;
+}
+/*a标签的特殊样式*/
+.ahover:hover{
+  text-decoration:underline;
+  color:#C40000;
+}
+/*2.添加公共样式*/
+/*body {
+    font:12px Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}*/
+/*清除浮动（不管）*/
+/*.clearfix:before,.clearfix:after {  
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;
+}*/
+.clearfix::after{
+   content:"";/*加一段内容*/
+   display:block;/*让生成的元素以块级元素显示，占满剩余空间*/
+   height:0;/*避免生成的内容破坏原有布局高度*/
+   clear:both;/*清除浮动*/
+   visibility:hidden;/*让生成的内容不可见*/
+  }
+  .clearfix{zoom:1;/*为IE6，7的兼容性设置*/}
+
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.con{
+  width:1200px;
+  margin:0 auto;
+}
+.con1{
+  width:770px;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.ac {
+    text-align:center;
+}
+.hide {
+    display:none;
+}
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}

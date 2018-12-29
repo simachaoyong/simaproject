@@ -1,0 +1,201 @@
+body{
+    background-color:#F8F8F8;
+}
+.con{
+    width:1000px;
+    margin:0 auto;
+}
+#header{
+    height:83px;
+}
+#header h1 a{
+    display:block;
+    text-indent: -9999em;
+    height:39px;
+    width:200px;
+    background:url(../img/j1lg.png) no-repeat;
+    margin-top:24px;
+}
+#header h2{
+    color:#676767;
+    font-size:24px;
+    font-weight:600;
+    line-height:83px;
+    margin-left:20px;
+}
+#header p b{
+    color:#e4393c;
+}
+#header p{
+    color:#676767;
+    margin-left:10px;
+    margin-top:40px;
+}
+/*主体注册部分*/
+#container{
+    border:1px solid #ddd;
+    background-color:#fff;
+    margin-bottom:30px;
+}
+#container form{
+    width:733px;
+    height:474px;
+    border-right:1px solid #ddd;
+    padding-top:40px;
+}
+#container form dl{
+  overflow:hidden;  
+}
+#container form dl dt,#container form dl dd{
+    float:left;
+}
+#container form .xing{
+    color:#e4393c;
+}
+#container form dl dd{
+    margin-left:20px;
+    position:relative;
+}
+#container form dl dt{
+    width:108px;
+    text-align:right;
+    line-height:36px;
+}
+.jssjh,.yck,#rePassWord{
+    height:36px;
+    width:270px;
+    border:1px solid #ddd;
+    padding-left:10px;
+}
+#mobile{
+    color:#999;
+}
+.ts-error{
+    line-height:24px;
+    color:#e4394c;
+}
+._register_correct_inf{
+    position:absolute;
+    top:10px;
+    left:250px;
+
+    height:16px;
+    width:16px;
+    background:url(../img/miniloginbg.png) no-repeat -63px -33px;
+    display:none;
+}
+.kd80,.btn-djs{
+    height:36px;
+    border:1px solid #ddd;
+}
+.kd80{
+    width:92px;
+}
+.btn-djs{
+    width:90px;
+    background-color:#F5F5F5;
+    margin-left:10px;
+}
+.beizhu{
+    margin-left:10px;
+    position:relative;
+}
+.beizhu em{
+    position:absolute;
+    top:0;
+    left:60px;
+    margin-top:2px;
+    display:inline-block;
+    height:14px;
+    width:152px;
+    background:url(../img/miniloginbg.png) no-repeat;
+    background-position:0 -114px;
+}
+.yhxy{
+    margin:14px 0 22px 128px;
+}
+#protocol{
+    color:#005AA0;
+}
+#protocol:hover{
+    text-decoration:underline;
+}
+.btn-ljzc{
+    height:50px;
+    width:270px;
+    margin-left:128px;
+    border-radius:4px;
+    background-color:rgba(196, 0, 0);
+    font-size:18px;
+    color:#fff;
+}
+.btn-ljzc:hover{
+    background-color:rgba(196, 0, 0,0.8);
+}
+/*右边*/
+.rgfr265{
+    width:265px;
+    padding:39px 0 0 45px;
+}
+.rgfr265 h4{
+    line-height:38px;
+}
+.btn-ksdl{
+    display:block;
+    height:38px;
+    width:178px;
+    border:1px solid #ddd;
+    background-color:#F5F5F5;
+    text-align:center;
+    line-height:38px;
+    color:#676767;
+    margin-bottom:20px;
+}
+.hzzh li a{
+    color:#676767;
+}
+.hzzh li a:hover{
+    text-decoration: underline;
+    color:#e4393c;
+}
+.hzzh li{
+    padding-left:22px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:2px;
+    background:url(../img/miniloginbg.png) no-repeat;
+}
+.hzzh .hz-01{
+    background-position: -86px 3px;
+}
+.hzzh .hz-02{
+    background-position:-86px -24px;
+}
+.hzzh .hz-03{
+    background-position:-86px -51px;
+}
+.hzzh .hz-04{
+    background:none;
+    position:relative;
+}
+.hzzh .hz-04 img{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:0;
+    left:-2px;
+}
+/*footer部分*/
+.sec-footer{
+    text-align:center;
+}
+.sec-footer .zhengshu{
+    line-height:24px;
+}
+.sec-footer a{
+    color:#676767;
+}
+.sec-footer a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}

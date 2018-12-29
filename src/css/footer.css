@@ -1,0 +1,319 @@
+#hot_tj{
+    border:1px solid #ddd;
+    margin-top:20px;
+}
+#hot_tj h4{
+    height:36px;
+    padding-left:20px;
+    border-bottom:1px solid #ddd;
+    line-height:36px;
+}
+.hot_pro{
+    height:220px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+.hot_pro div{
+    height:220px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.hot_pro div ul{
+    float:left;
+    width:1200px;
+}
+.hot_pro div ul li{
+    float:left;
+    width:230px;
+    margin-top:30px;
+}
+.hot_pro div ul li a{
+    float:left;
+}
+.hot_pro div ul li a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+.hot_pro div ul li .aimg{
+    height:80px;
+    width:109px;
+}
+.hot_pro div ul li .aimg img{
+    width:100%;
+}
+.hot_pro div ul li .atit{
+    width:110px;
+}
+.hot_pro .arrowBtn{
+    position:absolute;
+    height:70px;
+    width:35px;
+    top:50%;
+    transform:translateY(-50%);
+    background:url(../img/slidelf.png);
+    display:none;
+}
+.hot_pro:hover .arrowBtn{
+    display:block;
+    opacity:0.6;
+}
+.hot_pro .hot_l{
+    left:0;
+}
+.hot_pro .hot_l:hover,.hot_pro .hot_r:hover{
+    opacity:0.8;
+}
+.hot_pro .hot_r{
+    right:0;
+    background-position:-53px 0;
+}
+/*底部*/
+#footer{
+    margin-top:40px;
+    background-color:#E6E6E6;
+    text-align:center;
+    border-top:2px solid #A6A6A6;
+}
+#aside{
+    position:fixed;
+    width:37px;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+}
+#aside>div{
+    position:relative;
+}
+#aside .ewm{
+    margin-top:10px;
+}
+#aside .ewm span{
+    position:absolute;
+    height:180px;
+    width:158px;
+    background-color:#fff;
+    line-height:180px;
+    text-align:center;
+    left:-158px;
+    bottom:4px;
+    border-radius:4px;
+    box-shadow:0 0 10px #ddd;
+    display:none;
+}
+#aside i{
+    position:absolute;
+    height:7px;
+    width:4px;
+    background:url(../img/slidelf.png) -20px -280px;
+    right:-4px;
+    bottom:6px;
+}
+#aside .ewm:hover span{
+    display:block;
+}
+.lx>div{
+    position:absolute;
+    width:112px;
+    background-color:#fff;
+    box-shadow:0 0 10px #ddd;
+    border-radius:4px;
+    bottom:4px;
+    left:-112px;
+    text-align:center;
+    padding:5px;
+    display:none;
+}
+.lx div ul li{
+    margin:5px 0;
+}
+.lx div ul{
+    padding-bottom:5px;
+}
+.lx>div>div{
+    border-top:1px solid #ddd;
+    padding-top:5px;
+    color:#676767;
+    line-height:20px;
+}
+.lx:hover div{
+    display:block;
+}
+#toTop{
+    position:fixed;
+    height:37px;
+    width:37px;
+    background:url(../img/slidelf.png) no-repeat -51px -147px;
+    right:0;
+    bottom:40px;
+    display:none;
+}
+#toTop:hover{
+    background-position:0 -147px;
+}
+/*弹窗以及遮罩层*/
+#overlay{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(0,0,0,0.6);
+    z-index:7000;
+}
+#popUp{
+    display:none;
+    width:750px;
+    background-color:#fff;
+    border:6px solid #E5E5E5;
+    border-radius:4px;
+    position:fixed;
+    z-index:8000;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.popup_l{
+    height:340px;
+    border-right:1px solid #E5E5E5;
+    width:484px;
+}
+.poptit{
+    padding-left:40px;
+    height:79px;
+}
+.poptit h3{
+    font-size:16px;
+    line-height:76px;
+}
+.poptit a{
+    color:#205273;
+    margin:30px 86px 0 0;
+}
+.poptit a:hover{
+    text-decoration:underline;
+}
+.popcon span{
+    width:108px;
+    text-align:right;
+    line-height:36px;
+}
+.popcon input{
+    width:270px;
+    height:36px;
+    border:1px solid #ddd;
+    padding-left:10px;
+    margin-left:20px;
+    color:#676767;
+}
+.poptxt{
+    margin-bottom:24px;
+}
+.poptxt>div{
+    position:relative;
+}
+.poptxt .errorts{
+    display:none;
+    color:#e4393c;
+    position:absolute;
+    top:38px;
+    left:0;
+    padding-left:20px;
+    background:url(../img/miniloginbg.png) no-repeat -86px -79px;
+    background-color:#fff;
+}
+.popcheckbox{
+    margin:33px 0 0 128px;
+    width:270px;
+}
+.popcheckbox div a{
+    text-decoration:underline;
+}
+.popbtn{
+    width:270px;
+    height:50px;
+    background-color:rgba(196, 0, 0);
+    color:#fff;
+    margin:20px 0 0 128px;
+    border-radius:4px;
+    font-size:18px;
+}
+.popbtn:hover{
+    background-color:rgba(196, 0, 0,.8);
+}
+.rgfr265{
+    width:254px;
+    padding-left:24px;
+}
+.rgfr265 h4{
+    height:79px;
+    font-size:16px;
+    line-height:76px;
+}
+.btn-ksdl{
+    display:block;
+    height:38px;
+    width:178px;
+    border:1px solid #ddd;
+    background-color:#F5F5F5;
+    text-align:center;
+    line-height:38px;
+    color:#676767;
+    margin-bottom:20px;
+}
+.hzzh li a{
+    color:#676767;
+}
+.hzzh li a:hover{
+    text-decoration: underline;
+    color:#e4393c;
+}
+.hzzh li{
+    padding-left:22px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:2px;
+    background:url(../img/miniloginbg.png) no-repeat;
+}
+.hzzh .hz-01{
+    background-position: -86px 3px;
+}
+.hzzh .hz-02{
+    background-position:-86px -24px;
+}
+.hzzh .hz-03{
+    background-position:-86px -51px;
+}
+.hzzh .hz-04{
+    background:none;
+    position:relative;
+}
+.hzzh .hz-04 img{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:0;
+    left:-2px;
+}
+.closeBtn{
+    position:absolute;
+    color:#CCCCCE;
+    opacity:0.7;
+    font-size:20px;
+    font-weight:600;
+    top:10px;
+    right:10px;
+    cursor:default;
+}
+.closeBtn:hover{
+    opacity:1;
+}
+
+
+
+
+
+
+

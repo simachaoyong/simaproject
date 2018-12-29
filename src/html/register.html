@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>健一网注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>
+</head>
+<body>
+    <header id="header" class="con">
+        <h1 class="fl"><a href="../index.html">健一网注册</a></h1>
+        <h2 class="fl">会员注册</h2>
+        <p class="fl">注册成功即可获得<b>100</b>积分+<b>会员特权</b>！</p>
+    </header>
+    <!-- 注册主要内容 -->
+    <div class="con clearfix" id="container">
+        <form action="#" class="fl">
+            <div class="rgfl732">
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>手机号码/邮箱
+                    </dt>
+                    <dd>
+
+                        <input type="text" class="bk-default jssjh" name="mobile" id="mobile" value="请输入手机号码/163邮箱">
+                        <div class="ts-error _register_error_inf">
+                            <span class="xing">*</span> <i>请输入手机号码/163邮箱</i>
+                        </div>
+                        <!-- 正确打钩  correct-->
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>设置密码
+                    </dt>
+                    <dd>
+                        <input type="password" class="bk-default yck" name="loginPassword">
+                        <label for="" class="beizhu">安全程度：<em class="cd-01" id="aqStyle"></em></label>
+
+                        <div class="ts-error _register_error_inf">
+                            <span class="xing">*</span> <i>6-20个大小写英文字母，符号或数字</i>
+                        </div>
+                        <!-- 正确打钩 -->
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>确认密码
+                    </dt>
+                    <dd>
+                        <input type="password" id="rePassWord">
+
+                        <div class="ts-error _register_error_inf">
+                            <span class="xing">*</span> <i>请再次确认密码</i>
+                        </div>
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>验证码
+                    </dt>
+                    <dd>
+                        <input type="text" class="bk-default kd80 _code_val" >
+
+                        <input type="button" class="btn-djs _code_mobile" value="获取验证码">
+                        <div class="ts-error _register_error_inf">
+                            <span class="xing">*</span> <i>请输入验证码</i>
+                        </div>
+            
+                    </dd>
+                </dl>
+                <div class="ljzc yhxy">
+                    <input type="checkbox" value="1" class="checkbox" checked="checked" id="readme" name="readme">
+                    <label for="protocol">
+                        我已阅读并同意
+                        <a href="#" id="protocol">
+                            《用户协议》
+                        </a>
+                    </label>
+                </div>
+                <div class="ljzc">
+                    <input type="button" style="cursor:pointer;" class="btn-ljzc" value="立即注册">
+                </div>
+            </div>
+        </form>
+        <!-- 右边 -->
+        <div class="rgfr265 fl">
+            <h4 class="fs14">已有健一账号？</h4>
+            <a class="btn-ksdl" href="../html/sign.html" target="_blank">快速登录</a>
+            <h4>使用合作账号登录健一网</h4>
+            <ul class="hzzh">
+                <li class="hz-01"><a href="#">支付宝</a></li>
+                <li class="hz-02"><a href="#">QQ</a></li>
+                <li class="hz-03"><a href="#">平安健康商圈 健康卡</a></li>
+                <li class="hz-04"><img src="../img/hrtLogin2.png"/><a href="#">华润通</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer部分 -->
+    <div class="sec-footer con">
+        <div class="zhengshu">
+            <a href="#">互联网药品交易服务资格证书</a>&nbsp;&nbsp;<a href="#">药品经营许可证</a>&nbsp;&nbsp;<a href="#">互联网药品信息服务资格证书</a>&nbsp;&nbsp;<a href="#">食品流通许可证</a>&nbsp;&nbsp;<a href="#">医疗器械经营企业许可证</a>&nbsp;&nbsp;<a href="#">药品经营质量管理规范认证证书（新）</a>
+            <a href="#"><br/>互联网医疗保健信息服务审核同意书</a>&nbsp;&nbsp;<a href="#">信用资质等级评定</a>&nbsp;&nbsp;<a href="#">信用资质等级证书</a>&nbsp;&nbsp;<a href="#">企业法人营业执照</a>&nbsp;&nbsp;<a href="#">税务登记证</a>
+        </div>
+        <div>Copyright © j1.com All rights reserved 沪ICP备09007253号
+            上海健一网大药房连锁经营有限公司
+        </div>
+    </div>    
+</body>
+</html>

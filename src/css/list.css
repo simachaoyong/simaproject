@@ -1,0 +1,364 @@
+.detailnav{
+    height:40px;
+    line-height:40px;
+}
+.detailnav a:hover{
+    color:#e4393c;
+    text-decoration: underline;
+}
+/*左边部分内容*/
+.listpageleft{
+    width:205px;
+}
+.list-Screening{
+    border:1px solid #ddd;
+    width:100%;
+    padding-bottom:12px;
+}
+.list-Screening .list_h1{
+    line-height:31px;
+    border-bottom:1px solid #ddd;
+    font-size:16px;
+    padding-left:10px;
+    background-color:#F5F5F5;
+}
+.list-Screening h3{
+    line-height:18px;
+    margin:8px 10px 0;
+    border-bottom:1px dashed #ddd;
+}
+.list-Screening h3 a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+#billboard{
+    margin-top:10px;
+    border:1px solid #ddd;
+}
+#billboard .list_h1{
+    line-height:31px;
+    border-bottom:1px solid #ddd;
+    font-size:16px;
+    padding-left:10px;
+    background-color:#F5F5F5;
+}
+#billboard .list_h1 a{
+    font-size:12px;
+}
+#billboard  a:hover{
+    color:#e4393c;
+    text-decoration: underline;
+}
+#billboard .listpageBox ul{
+    padding:3px 10px;
+}
+.listleft-tj{
+    margin-top:10px;
+}
+/*右侧内容*/
+.listpageright{
+    width:985px;
+    margin-left:10px;
+}
+.borderbox{
+    width:100%;
+    border:1px solid #ddd;
+    padding:0 10px;
+}
+.tjtitle{
+    line-height:44px;
+}
+.listcx_left{
+    border:1px solid #ddd;
+    margin-top:10px;
+}
+.listcx_left h2{
+    padding-left:10px;
+    line-height:30px;
+    border-bottom:1px solid #ddd;
+}
+.cxlist{
+    float:left;
+    padding:10px;
+}
+.cxlist dt{
+    float:left;
+    height:100px;
+    width:100px;
+}
+.cxlist dt img{
+    width:100%;
+}
+.cxlist dd{
+    float:left;
+    width:134px;
+    padding:0 30px 0 10px;
+}
+.cxlist dd span,.cxlist dd cite,.cxlist dd s,.cxlist dd a{
+    display:block;
+}
+.cxlist dd span{
+    line-height:18px;
+}
+.cxlist dd cite{
+    line-height:18px;
+    width:100%;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    font-style:normal;
+}
+.cxlist dd s{
+    color:#C40000;
+    font-weight:600;
+    line-height:30px;
+}
+.cxlist dd a{
+    height:24px;
+    width:72px;
+    border:1px solid #BBBBBB;
+    text-align:center;
+    line-height:22px;
+}
+.cxlist dd a:hover{
+    background-color:#C40000;
+    color:#fff;
+}
+.searchlist{
+    border:1px solid #ddd;
+    border-top:2px solid #C40000;
+    margin-top:10px;
+    padding:0 10px 4px;
+}
+.searchlist h2{
+    line-height:34px;
+    color:#C40000;
+    font-size:14px;
+}
+.searchlist a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+.choose{
+    padding-top:10px;
+    border-bottom:1px solid #ddd;
+    line-height:30px;
+}
+.choose dt{
+    float:left;
+    width:100px;
+    text-align:right;
+}
+.choose dd{
+    float:left;
+    margin-left:24px;
+}
+.choose dd a{
+    padding-right:20px;
+    background:url(../img/newchooselist_icon.png) no-repeat -15px -65px;
+}
+.choosetype{
+    width:100%;
+    border-bottom:1px solid #ddd;
+    margin-top:10px;
+}
+.choosetype dt{
+    float:left;
+    width:100px;
+    text-align:right;
+    line-height:24px;
+}
+.choosetype dd{
+    width:863px;
+    float:left;
+}
+.choosetype dd a{
+    display:inline-block;
+    width:120px;
+    line-height:24px;
+}
+/*商品列表*/
+.listsearchmain3{
+    margin-top:30px;
+    width:100%;
+}
+.listsearchmain3-con{
+    height:42px;
+    background-color:#F5F5F5;
+    padding:0 8px;
+}
+.px dt{
+    float:left;
+    line-height:42px;
+}
+.px dd{
+    float:left;
+}
+.px dd span{
+    float:left;
+    height:25px;
+    line-height:25px;
+    position:relative;
+    margin-top:8px;
+    width:44px;
+    border:1px solid #ddd;
+    border-left:none;
+    padding-left:3px;
+}
+.px dd span i{
+    position:absolute;
+    height:8px;
+    width:7px;
+    background:url(../img/listpx0410.png) no-repeat;
+    top:7px;
+    right:5px;
+}
+.px dd span.current{
+    background-color:#C40000;
+    color:#fff;
+}
+.px dd span i.up{
+    background-position:-92px -37px;
+}
+.px dd span i.down{
+    background-position:-92px 0;
+}
+.px dd span i.upb{
+    background-position:-92px -18px;
+}
+.pagenav .proNum{
+    line-height:42px;
+}
+.pageNum{
+    line-height:42px;
+    margin:0 14px;
+}
+.page_l,.page_r{
+    height:21px;
+    width:18px;
+    border:1px solid #CCCCCC;
+    background-color:#fff;
+    line-height:19px;
+    text-align:center;
+    margin:10px 7px 0 0;
+    cursor:default;
+}
+.listsearch-jg{
+    width:100%;
+}
+.listsearch-one{
+    border-bottom:1px dashed #ddd;
+    padding:16px 0 15px 0;
+}
+.listsearch-ztimg{
+    border:2px solid transparent;
+    width:239px;
+    overflow:hidden;
+    margin:0 3px;
+}
+.list_img{
+    width:100%; 
+    height:220px;
+    line-height:220px;
+    text-align:center;
+}
+.list_img img{
+    width:200px;
+}
+.list_tit{
+    height:36px;
+    overflow:hidden;
+}
+.list_tit a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+.list_price{
+    color:#e4393c;
+    font-weight:600;
+    line-height:22px;
+}
+.list_num{
+    line-height:32px;
+    margin-top:4px;
+}
+.list_pj{
+    color:#0081CC;
+    margin-left:10px;
+}
+.list_pj:hover{
+    text-decoration:underline;
+}
+.list_btn{
+    padding-bottom:5px;
+}
+.list_btn a{
+    display:inline-block;
+    height:27px;
+    width:107px;
+    border:1px solid #ddd;
+    margin:0 4px;
+    line-height:25px;
+    text-align:center;
+}
+.list_btn .list_car{
+    background:url(../img/listseachbg0411.png) no-repeat 4px -83px;
+}
+.list_btn .list_ck:hover{
+    background-color:#C40000;
+    border-color:#C40000;
+    color:#fff;
+}
+.listsearch-ztimg:hover{
+    border-color:#EAEAEA;
+}
+.listsearch-ztimg:hover .list_car{
+    background-position:4px -66px;
+    background-color:#C40000;
+    border-color:#C40000;
+    color:#fff;
+}
+.last_page{
+    margin-top:16px;
+}
+.last_page ul li{
+    float:left;
+    line-height:26px;
+    padding:0 5px;
+    line-height:24px;
+    margin-right:3px;
+}
+.borderpage{
+    border:1px solid #ddd;
+}
+.last_page span{
+    height:26px;
+    padding:0 5px;
+    border:1px solid #ddd;
+    line-height:24px;
+    margin-right:3px;
+}
+.last_page .allNum{
+    border:none;
+}
+.colorpage{
+    color:#999999;
+}
+.last_page .pagecurrent:hover{
+    color:#fff;
+    background-color:#165AA1;
+}
+.pagetxt{
+    margin:0 3px;
+    height:26px;
+    width:32px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+.pagenumbtn{
+    height:26px;
+    border:1px solid #ddd;
+    width:40px;
+    background-color:#EFEFEF;
+    margin-left:3px;
+}

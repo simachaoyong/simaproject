@@ -1,0 +1,156 @@
+body{
+    background-color:#F8F8F8;
+}
+.con{
+    width:1000px;
+    margin:0 auto;
+}
+#header{
+    height:83px;
+}
+#header h1 a{
+    display:block;
+    text-indent: -9999em;
+    height:39px;
+    width:200px;
+    background:url(../img/j1lg.png) no-repeat;
+    margin-top:24px;
+}
+/*登录主体*/
+.zc-register{
+    border:5px solid #ddd;
+    background-color:#fff;
+    margin-bottom:70px;
+}
+.reg-l{
+    padding:65px 90px 66px 80px;
+}
+.reg-r{
+    width:380px;
+    padding-right:73px;
+}
+.reg-r h3{
+    font-size:18px;
+    text-align:center;
+    font-weight:600;
+    line-height:30px;
+    margin-top:20px;
+}
+.gdx-1{
+    line-height:38px;
+}
+.gdx-1 a{
+    color:#e4393c;
+}
+.gdx-1 a:hover{
+    text-decoration:underline;
+}
+.item-sj{
+    position:relative;
+}
+.item-sj #userName2,#password2{
+    height:38px;
+    width:307px;
+    color:#999;
+    border:1px solid #ddd;
+    padding-left:35px;
+    background:url(../img/zc-ico.png) no-repeat 4px -71px;
+}
+.userError{
+    display:none;
+    color:#e4393c;
+    position:absolute;
+    top:38px;
+    left:0;
+    padding-left:20px;
+    background:url(../img/miniloginbg.png) no-repeat -86px -79px;
+    background-color:#fff;
+}
+#password2{
+    background-position:4px -108px;
+    margin-bottom:30px;
+}
+.item div a{
+    color:#676767;
+}
+.item div a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+#ptLogin{
+    margin-top:20px;
+    width:307px;
+    height:42px;
+    color:#fff;
+    background-color:rgba(196, 0, 0);
+    border-radius: 4px;
+}
+#ptLogin:hover{
+    background-color:rgba(196, 0, 0,0.8);
+}
+.hzwz p{
+    color:#888888;
+    border-bottom:1px solid #ddd;
+    line-height:30px;
+    margin-top:20px;
+}
+.hzwz ul li{
+    float:left;
+    margin-top:15px;
+}
+.hzwz ul a{
+    color:#676767;
+}
+.hzwz ul a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+.hzwz .hz-01{
+    background:url(../img/zc-ico.png) no-repeat 0 0;
+    padding-left:20px;
+}
+.hzwz .hz-02{
+    background:url(../img/zc-ico.png) no-repeat 0 -23px;
+    padding-left:20px;
+}
+.hzwz .hz-03{
+    display:inline-block;
+    height:18px;
+    width:140px;
+    background:url(../img/zc-ico.png) no-repeat 0 -46px;
+}
+.hzwz .hz-04{
+    position:relative;
+    padding-left:20px;
+    line-height:36px;
+}
+.hzwz .hz-04 img{
+    position:absolute;
+    height:17px;
+    width:17px;
+    top:0;
+    left:0;
+
+}
+.spacer{
+    display:inline-block;
+    height:20px;
+    width:1px;
+    background-color:#ddd;
+    margin:0 10px 0 22px;
+}
+/*footer部分*/
+.sec-footer{
+    text-align:center;
+    padding-bottom:10px;
+}
+.sec-footer .zhengshu{
+    line-height:24px;
+}
+.sec-footer a{
+    color:#676767;
+}
+.sec-footer a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}

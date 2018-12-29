@@ -1,0 +1,271 @@
+.con{
+    width:1000px;
+    margin:0 auto;
+}
+#headerbar{
+    padding:5px 0;
+}
+#headerbar a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+#shopcart-container{
+    padding-top:35px;
+}
+#shopcart-container .step2{
+    font-size:16px;
+    color:#999999;
+    line-height:40px;
+}
+#shopcart-container .step2 .fc4{
+    color:#e4393c;
+}
+.order-wrap .wdshop{
+    font-size:18px;
+    padding:20px 0 6px 0;
+}
+.jyico1{
+    font-size:18px;
+    color:#6D6D6D;
+    padding-left:30px;
+    background:url(../img/jyqf_ico1.png) no-repeat 0 2px;
+}
+/*购物车主体部分*/
+#carmain{
+    border:2px solid #EAEAEA;
+    padding:10px;
+    margin-top:10px;
+}
+.car_tit{
+    height:31px;
+    border-bottom:1px solid #EAEAEA;
+    background-color:#F6F6F6;
+    line-height:30px;
+}
+.car_tit li{
+    float:left;
+    font-weight:600;
+    text-align:center;
+}
+.spacer{
+    height:21px;
+    margin:0 5px;
+    border-bottom:1px solid #EAEAEA;
+}
+.mianbz{
+    margin:0 5px;
+    border-bottom:1px solid #F1F1F1;
+    background:url(../img/mj_2.png) no-repeat 10px 4px;
+    line-height:30px;
+    padding-left:17px;
+    color:#fff;
+}
+.carBox{
+    padding-top:10px;
+    width:100%;
+}
+.carBox li{
+    width:100%;
+    height:131px;
+    border-bottom:1px solid #E2E2E2;
+}
+.colorbg{
+    background-color:#FFF4E8;
+}
+.carCheck{
+    height:13px;
+    width:13px;
+    border:1px solid #8E8F8F;
+    color:#4B6097;
+    margin:59px 17px 0 10px;
+}
+.carpro{
+    margin-top:20px;
+    width:320px;
+}
+.carpro dt{
+    height:90px;
+    width:90px;
+    border:1px solid #F0F0F0;
+    background-color:#fff;
+    float:left;
+    line-height:90px;
+}
+.carpro dt img{
+    width:100%;
+}
+.carpro dd{
+    width:230px;
+    padding:25px 0 0 30px;
+    float:left;
+
+}
+.carpro dd a{
+    line-height:20px;
+}
+.carpro dd a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
+.proId{
+    width:120px;
+}
+.proId div{
+    width:120px;
+}
+.poscar{
+    height:130px;
+    position:relative;
+}
+.poscar div{
+    position:absolute;
+    padding:0 5px;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    word-wrap:break-word;
+    text-align:center;
+}
+.progg{
+    width:80px;
+}
+.progg div{
+    width:80px;
+}
+.procd{
+    width:100px;
+}
+.procd div{
+    width:100px;
+}
+.projg{
+    width:60px;
+}
+.projg div{
+    width:60px;
+}
+.prosl{
+    width:100px;
+}
+.prosl div{
+    width:100px;
+}
+.prozj{
+    width:100px;
+}
+.prozj div{
+    width:100px;
+}
+.prosc{
+    width:55px;
+}
+.prosc div{
+    width:55px;
+}
+.prosc div:hover{
+    cursor:default;
+    color:#e4393c;
+}  
+.prosl div i{
+    float:left;
+    height:22px;
+    width:17px;
+    text-align:center;
+    line-height:20px;
+    border:1px solid #CCCCCC;
+    background-color:#F6F6F6;
+
+} 
+.prosl div span{
+    float:left;
+    height:22px;
+    width:32px;
+    text-align:center;
+    border:1px solid #6D6D6D;
+    background-color:#FFFFFF;
+    margin:0 2px;
+    line-height:20px;
+}
+.prosl div{
+    padding-left:20px;
+}
+.procarNum{
+    height:50px;
+    line-height:60px;
+}
+.procarNum li{
+    float:left;
+}
+.procarNum li span{
+    color:#C40000;
+}
+.footjs{
+    height:50px;
+    border:1px solid #EAEAEA;
+    margin-top:10px;
+}
+.footjs li{
+    float:left;
+    line-height:48px;
+}
+.footjs input{
+    height:13px;
+    width:13px;
+    border:1px solid #8E8F8F;
+    margin:0 10px; 
+}
+.footsc{
+    margin-left:24px;
+}
+.footsc:hover{
+    color:#C40000;
+    cursor:pointer;
+}
+.footjxgw{
+    margin-left:20px;
+}
+.footjxgw a{
+    color:#999;
+}
+.footjxgw a:hover{
+    color:#C40000;
+}
+.footyxz{
+    margin-left:303px;
+}
+.footyxz i{
+    color:#C40000;
+}
+.footzj{
+    margin-left:40px;
+}
+.footzj i{
+    color:#C40000;
+    font-weight:600;
+    font-size:14px;
+}
+.footjsbtn a{
+    display:block;
+    height:48px;
+    width:126px;
+    background-color:#C40000;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+}
+/*footer部分*/
+.sec-footer{
+    margin-top:20px;
+    text-align:center;
+    padding-bottom:10px;
+}
+.sec-footer .zhengshu{
+    line-height:24px;
+}
+.sec-footer a{
+    color:#676767;
+}
+.sec-footer a:hover{
+    color:#e4393c;
+    text-decoration:underline;
+}
